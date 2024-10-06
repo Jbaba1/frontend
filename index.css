@@ -1,0 +1,26 @@
+*{
+    list-style-type: none;
+}
+
+form{
+    box-shadow: 2px 2px 19px rgb(48, 46, 46);
+}
+
+img{
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover;
+}
+
+li:hover{
+    background-color: yellow !important;
+}
+
+@media screen and (max-width:580px) {
+    body{
+        background-color: black;
+    }
+    form{
+        min-width: 85%;
+    }
+}
